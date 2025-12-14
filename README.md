@@ -23,6 +23,6 @@ Rete Neurale Convoluzionale (CNN) profonda 18 strati. ​
 Tecnica usata: Transfer Learning. Invece di partire da zero, il codice scarica i pesi preaddestrati. Questo modello apprende rapidamente e raggiunge un'accuratezza elevata (~90% in validazione).​
 
 
-Il Modello di Confronto: Support Vector Machine (Machine Learning Classico) ​
+**Il** **Modello** **di** **Confronto** **:** **Support** **Vector** **Machine** **(** **Machine** **Learning** **Classico** **)** ​
 A differenza della ResNet, l'SVM non guarda l'immagine grezza. Il codice estrae manualmente due caratteristiche matematiche prima di passargliele: Istogramma: La distribuzione dei toni di grigio; Densità: La quantità di pixel neri rispetto al bianco​
 Risultati: Come mostra il boxplot l'SVM si ferma al 55% di accuratezza, dimostrandosi inefficace rispetto alla ResNet.​​
