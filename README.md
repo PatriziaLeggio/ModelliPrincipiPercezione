@@ -18,7 +18,7 @@ Nello screening vengono analizzati:​
 - Postura e impugnatura
   
 
-Il Modello Principale: ResNet18 (Deep Learning)​
+__Il Modello Principale: ResNet18 (Deep Learning)__​
 Rete Neurale Convoluzionale (CNN) profonda 18 strati. ​
 Tecnica usata: Transfer Learning. Invece di partire da zero, il codice scarica i pesi preaddestrati. Questo modello apprende rapidamente e raggiunge un'accuratezza elevata (~90% in validazione).​
 
